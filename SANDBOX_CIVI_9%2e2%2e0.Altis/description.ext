@@ -1,0 +1,20 @@
+﻿Author = "Peterson";
+onLoadName = "S7-SANDBOX";
+OnLoadMission = "Lets Kill Shit";
+loadScreen = "s7.jpg";
+Respawn = "base";
+RespawnDelay = 5;
+DisabledAI = true;
+enableDebugConsole = 1; // Debug Console
+class Header
+{
+	gameType=COOP;
+	minPlayers=0;
+	maxPlayers=122;
+};
+
+#include "CHVD\dialog.hpp"
+class CfgFunctions
+{
+	#include "CHVD\CfgFunctions.hpp"
+};
