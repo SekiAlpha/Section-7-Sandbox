@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=8940;
+		nextID=8947;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1092;
+		nextID=1117;
 	};
 	class Camera
 	{
@@ -9246,7 +9246,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=593;
+		items=594;
 		class Item0
 		{
 			dataType="Layer";
@@ -23089,7 +23089,7 @@ class Mission
 		class Item283
 		{
 			dataType="Marker";
-			position[]={26901.689,21.661077,24901.09};
+			position[]={26898.871,21.630995,24901.475};
 			name="respawn_east";
 			type="Empty";
 			angle=88.915367;
@@ -23098,7 +23098,7 @@ class Mission
 		class Item284
 		{
 			dataType="Marker";
-			position[]={26898.396,21.68376,24902.982};
+			position[]={26898.467,21.64393,24901.959};
 			name="respawn_west";
 			type="Empty";
 			angle=88.915367;
@@ -23107,12 +23107,11 @@ class Mission
 		class Item285
 		{
 			dataType="Marker";
-			position[]={26899.127,21.550167,24898.855};
-			name="respawn_civ";
+			position[]={26898.5,21.614283,24901.205};
+			name="respawn_civilian";
 			type="Empty";
-			angle=88.915367;
+			angle=88.914986;
 			id=8367;
-			atlOffset=1.9073486e-006;
 		};
 		class Item286
 		{
@@ -38449,6 +38448,15 @@ class Mission
 			colorName="ColorYellow";
 			id=8939;
 			atlOffset=-0.00037956238;
+		};
+		class Item593
+		{
+			dataType="Marker";
+			position[]={26898.115,21.624168,24901.605};
+			name="respawn_guerrila";
+			type="Empty";
+			angle=88.914986;
+			id=8940;
 		};
 	};
 	class Connections
