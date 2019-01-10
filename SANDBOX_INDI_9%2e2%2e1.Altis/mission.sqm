@@ -9557,7 +9557,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="CSO @SPARTAN 2 HQ";
+						description="CSO @SPARTAN 1 HQ";
 						isPlayable=1;
 					};
 					id=8035;
@@ -13333,7 +13333,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="CSO @SPARTAN 2 HQ";
+						description="CSO @SPARTAN 3 HQ";
 						isPlayable=1;
 					};
 					id=8113;
