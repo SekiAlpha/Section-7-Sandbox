@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1117;
+		nextID=1142;
 	};
 	class Camera
 	{
-		pos[]={27354.936,83.179123,24886.854};
-		dir[]={-0.96866542,-0.2315146,-0.091326982};
-		up[]={-0.23086397,0.97276533,-0.021766415};
-		aside[]={-0.093874402,-1.309847e-006,0.99568975};
+		pos[]={26927.467,116.48541,24923.963};
+		dir[]={-0.68573064,-0.6959092,0.21387966};
+		up[]={-0.66455513,0.71794432,0.20727466};
+		aside[]={0.29778296,-7.1746763e-007,0.95473993};
 	};
 };
 binarizationWanted=0;
@@ -9550,14 +9550,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26854.318,22.16688,24890.771};
-						angles[]={0,1.551867,0};
+						position[]={26854.32,22.166885,24890.771};
+						angles[]={0,1.5518595,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						description="CSO @SPARTAN 2 HQ";
+						description="CSO @SPARTAN 1 HQ";
 						isPlayable=1;
 					};
 					id=8035;
@@ -13326,14 +13326,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={26896.309,22.282835,24933.955};
-						angles[]={0,1.551867,0};
+						position[]={26896.555,22.298637,24934.336};
+						angles[]={0,1.5518595,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						description="CSO @SPARTAN 2 HQ";
+						description="CSO @SPARTAN 3 HQ";
 						isPlayable=1;
 					};
 					id=8113;
@@ -23110,7 +23110,7 @@ class Mission
 			position[]={26898.5,21.614283,24901.205};
 			name="respawn_civilian";
 			type="Empty";
-			angle=88.914986;
+			angle=88.914978;
 			id=8367;
 		};
 		class Item286
@@ -38455,7 +38455,7 @@ class Mission
 			position[]={26898.115,21.624168,24901.605};
 			name="respawn_guerrila";
 			type="Empty";
-			angle=88.914986;
+			angle=88.914978;
 			id=8940;
 		};
 	};
