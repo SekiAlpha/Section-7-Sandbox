@@ -4,3 +4,6 @@
 CHVD_allowNoGrass = false;
 ACE_maxWeightDrag = 6000;
 ACE_maxWeightCarry = 2000;
+
+//Set CHVD Minimum view distance
+missionNamespace setVariable ["Custom_CHVD_MinDistance", 300];
