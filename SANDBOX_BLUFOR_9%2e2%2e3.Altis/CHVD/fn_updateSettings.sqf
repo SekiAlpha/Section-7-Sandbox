@@ -9,7 +9,7 @@ _updateType = [_this, 0, 0, [0]] call BIS_fnc_param; // 1 - view, 2 - obj, 3 - b
 
 	To change minimum in game to 900m, run following on SERVER (not local):
 	Custom_CHVD_MinDistance = 900;
-*/
+
 
 //Setting Min Stuff
 if (CHVD_foot < Custom_CHVD_MinDistance) then {CHVD_foot = Custom_CHVD_MinDistance;};
@@ -18,6 +18,7 @@ if (CHVD_air < Custom_CHVD_MinDistance) then {CHVD_air = Custom_CHVD_MinDistance
 if (CHVD_footObj < Custom_CHVD_MinDistance) then {CHVD_footObj = Custom_CHVD_MinDistance;};
 if (CHVD_carObj < Custom_CHVD_MinDistance) then {CHVD_carObj = Custom_CHVD_MinDistance;};
 if (CHVD_airObj < Custom_CHVD_MinDistance) then {CHVD_airObj = Custom_CHVD_MinDistance;};
+*/
 
 switch (_updateType) do {
 	case 1: {
