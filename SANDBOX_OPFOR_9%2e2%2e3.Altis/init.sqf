@@ -23,3 +23,4 @@ ACE_maxWeightCarry = 2000;
 
 //Set CHVD Minimum view distance
 missionNamespace setVariable ["Custom_CHVD_MinDistance", 300];
+execVM "show_fps.sqf";

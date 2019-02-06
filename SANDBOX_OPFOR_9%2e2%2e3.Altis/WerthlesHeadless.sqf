@@ -216,6 +216,32 @@ if (isMultiplayer) then
 				[2,[]] call WHKDebugHint;
 			};
 		},nil,-666,false,true,"",WHKCondition];
+		
+		_action = ["debugWHK", "<t color='#C67171'>Toggle WHK Debug", "", { 
+			if (WHKDEBUGGER == player) then 
+			{ 
+				WHKDEBUGHC = !WHKDEBUGHC; 
+				publicVariable "WHKDEBUGHC"; 
+			} 
+			else 
+			{ 
+				WHKDEBUGGER = player; 
+				publicVariable "WHKDEBUGGER"; 
+				WHKDEBUGHC = true; 
+				publicVariable "WHKDEBUGHC"; 
+			}; 
+			if (WHKDEBUGHC) then 
+			{ 
+				[1,[]] call WHKDebugHint; 
+			} 
+			else 
+			{ 
+				[2,[]] call WHKDebugHint; 
+			}; 
+		}, {true}] call ace_interact_menu_fnc_createAction;  
+         
+        [["ACE_ZeusActions"], _action] call ace_interact_menu_fnc_addActionToZeus;
+		
 		_arb = player addEventHandler ["respawn",
 		{
 			(_this select 1) removeAction WHKAction;
@@ -256,7 +282,7 @@ if (isMultiplayer) then
 				};
 			},nil,-666,false,true,"",WHKCondition];
 		}];
-		
+
 		//draw icons if debug is activated for a player
 		_debugging = [_debug] spawn {
 			_check = true;
@@ -618,8 +644,9 @@ if (isMultiplayer) then
 							_HCName = objNull;
 							if (_advanced) then
 							{
-								//find the headless client with the fewest AIs
+								//placeholder varible
 								_fewest = WHKHeadlessLocalCounts select 0;
+								//find the headless client with the fewest AIs
 								{
 									//the total local units for the current HC
 									if (_x < _fewest) then
@@ -657,9 +684,10 @@ if (isMultiplayer) then
 								WHKHeadlessLocalCounts set [_ll,_newSum];
 							};
 							
+							sleep (_pause/3);
+							
 							//Move unit to 
 							_moveToHC = _groupMoving setGroupOwner _HC;
-							
 							sleep (_pause/3);
 							
 							//reattach triggers and waypoints
@@ -674,12 +702,10 @@ if (isMultiplayer) then
 								publicVariable "WHKHeadlessGroupOwners";
 							};
 							
-							sleep (_pause/3);
-														
 							//reattach triggers and waypoints
-							[[_groupMoving,_syncTrigArray,_syncWayArray,_syncObjectsArray],"WHKSyncArrays",true,false] call BIS_fnc_MP;
+							//[[_groupMoving,_syncTrigArray,_syncWayArray,_syncObjectsArray],"WHKSyncArrays",true,false] call BIS_fnc_MP;
 							
-							sleep (_pause/3);
+							//sleep (_pause/3);
 						};
 							
 							//_firstWaypoint = (waypoints _groupMoving) select 1;
