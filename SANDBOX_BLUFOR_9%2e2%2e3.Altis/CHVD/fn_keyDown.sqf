@@ -28,12 +28,12 @@ _vdDiff = _viewDist - _objViewDist;
 
 switch (_updateMode) do {
 	case 1: {
-		_viewDistValue = _viewDist + _updateValue min CHVD_maxView max 500;		
+		_viewDistValue = _viewDist + _updateValue min CHVD_maxView max CHVD_minView;		
 		
 		_percentVar = "CHVD_" + _vehTypeString + "SyncPercentage";
 		_percentValue = call compile _percentVar;
 		
-		_objViewDistValue = _viewDistValue * _percentValue min CHVD_maxObj;
+		_objViewDistValue = _viewDistValue * _percentValue min CHVD_maxObj max CHVD_minObj;
 		
 		if (_objViewDistValue >= 500) then {
 			call compile format ["%1 = %2", _viewDistVar, _viewDistValue];
@@ -45,15 +45,15 @@ switch (_updateMode) do {
 		};
 	};
 	case 2: {		
-		_objViewDistValue = _objViewDist + _updateValue min _viewDist min CHVD_maxObj max 500;
+		_objViewDistValue = _objViewDist + _updateValue min _viewDist min CHVD_maxObj max CHVD_minObj;
 		call compile format ["%1 = %2", _objViewDistVar, _objViewDistValue];
 		call compile format ["profileNamespace setVariable ['%1',%1]", _objViewDistVar];
 		
 		[4] call CHVD_fnc_updateSettings;
 	};
 	default {
-		_viewDistValue = _viewDist + _updateValue min CHVD_maxView max (500 + _vdDiff);
-		_objViewDistValue = _objViewDist + _updateValue min (_viewDistValue - _vdDiff) min CHVD_maxObj max 500;
+		_viewDistValue = _viewDist + _updateValue min CHVD_maxView max CHVD_minView;
+		_objViewDistValue = _objViewDist + _updateValue min (_viewDistValue - _vdDiff) min CHVD_maxObj max CHVD_minObj;
 		call compile format ["%1 = %2", _viewDistVar, _viewDistValue];
 		call compile format ["profileNamespace setVariable ['%1',%1]", _viewDistVar];
 		
