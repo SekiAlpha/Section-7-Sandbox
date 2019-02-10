@@ -6,6 +6,18 @@ Respawn = "base";
 RespawnDelay = 5;
 DisabledAI = true;
 enableDebugConsole = 1; // Debug Console
+
+//Corpse Managment
+corpseManagerMode = 1;
+corpseLimit = 30;
+corpseRemovalMinTime = 30;
+corpseRemovalMaxTime = 1200;
+wreckManagerMode = 1;
+wreckLimit = 5;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 1200;
+minPlayerDistance = 300;
+
 class Header
 {
 	gameType=COOP;
