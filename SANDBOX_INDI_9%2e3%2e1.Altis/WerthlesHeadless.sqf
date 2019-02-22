@@ -527,34 +527,9 @@ if (isMultiplayer) then
 					
 					//if group leader isn't a human and isn't controlled by a HC
 					if (!(isPlayer _lead) and (_leadHeadless == -1) and (_size > 0)) then
-					{
-						//add dummy waypoint
-						_WHKDummyWaypoint = _groupMoving addWaypoint [position _lead, 0.1, currentWaypoint _groupMoving, "WHKDummyWaypoint"];
-						_WHKDummyWaypoint setWaypointTimeout [6,6,6];
-						_WHKDummyWaypoint setWaypointCompletionRadius 100;
-						
-						sleep (_pause/3);
-						
+					{	
 						_moveToHC = false;
 						_bad = false;
-						
-						//Remember syncs from waypoints to other waypoints and triggers
-						_syncTrigArray = [];
-						_syncWayArray = [];
-						{
-							_wayNum = _forEachIndex;
-							_syncedTrigs = synchronizedTriggers _x;
-							_syncTrigArray set [_wayNum,_syncedTrigs];
-							_syncedWays = synchronizedWaypoints _x;
-							_syncWayArray set [_wayNum,_syncedWays];
-						}forEach waypoints _groupMoving;
-
-						//remember syncs to objects
-						_syncObjectsArray = [];
-						{
-							_syncObjects = synchronizedObjects _x;
-							_syncObjectsArray = _syncObjectsArray + [_syncObjects];
-						}forEach units _groupMoving;
 						
 						//check for bad modules with ignore
 						{
@@ -690,9 +665,6 @@ if (isMultiplayer) then
 							_moveToHC = _groupMoving setGroupOwner _HC;
 							sleep (_pause/3);
 							
-							//reattach triggers and waypoints
-							[[_groupMoving,_syncTrigArray,_syncWayArray,_syncObjectsArray],"WHKSyncArrays",true,false] call BIS_fnc_MP;
-							
 							//broadcast debug stuff
 							if (WHKDEBUGHC and _moveToHC) then
 							{
@@ -701,20 +673,8 @@ if (isMultiplayer) then
 								publicVariable "WHKHeadlessGroups";
 								publicVariable "WHKHeadlessGroupOwners";
 							};
-							
-							//reattach triggers and waypoints
-							//[[_groupMoving,_syncTrigArray,_syncWayArray,_syncObjectsArray],"WHKSyncArrays",true,false] call BIS_fnc_MP;
-							
-							//sleep (_pause/3);
+							sleep (_pause/3);
 						};
-							
-							//_firstWaypoint = (waypoints _groupMoving) select 1;
-							{
-								if (waypointName _x == "WHKDummyWaypoint") then
-								{
-									deleteWaypoint _x;
-								};
-							}forEach waypoints _groupMoving;
 					};
 				}forEach allGroups;
 				
