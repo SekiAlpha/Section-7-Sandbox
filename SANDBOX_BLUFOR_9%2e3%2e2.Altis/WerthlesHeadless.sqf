@@ -15,6 +15,7 @@ _startDelay = _this select 4; // how long to wait before running
 _pause = _this select 5; // how long to wait between each setGroupOwner, longer aids syncing
 _report = _this select 6; // turn setup report on or off
 _moreBadNames = _this select 7; // check for units, groups, classes, vehicles or modules with these words in their name, then ignore the associated unit's group
+_moreBadKinds = _this select 8; // check for unit, groups, classes, vehicles or modules with these typs, then ignore the assosiated unit's group.
 
 //Check the script is run in multiplayer only
 if (isMultiplayer) then
@@ -610,6 +611,17 @@ if (isMultiplayer) then
 								_bad = true;
 							};
 						}forEach _badNames;
+						
+						//check for unit kind
+						{
+							_nameOfSync = (vehicle _x);
+							{
+								_found = _nameOfSync isKindOf _x;
+								if (_found) then {
+									_bad = true;
+								};
+							}forEach _moreBadKinds;
+						}forEach units _groupMoving;
 						
 						//move it to HC
 						if not (_bad) then
