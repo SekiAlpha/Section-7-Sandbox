@@ -47,5 +47,5 @@ while {true} do {
 
 	_myfpsmarker setMarkerText format ["%1: %2 fps, %3 local groups, %4 local units", _sourcestr, (round (_myfps * 100.0)) / 100.0, _localgroups, _localunits];
 
-	sleep 15;
+	sleep 3;
 };
