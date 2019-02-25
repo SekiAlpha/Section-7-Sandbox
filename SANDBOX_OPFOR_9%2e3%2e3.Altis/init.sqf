@@ -14,7 +14,7 @@
 // Specifying "B_Heli" would stop all units with that class type from transferring to HCs
 // However, if you specify "BLUE1", "NAVYBLUE10" will also be ignored
 
-[true,10,false,true,30,10,true,["Helicopter"]] execVM "WerthlesHeadless.sqf";
+[true,10,false,true,30,10,true,[],["Helicopter"]] execVM "WerthlesHeadless.sqf";
 //CHVD_maxView = 7500;
 //CHVD_maxObj = 5000;
 CHVD_allowNoGrass = false;
