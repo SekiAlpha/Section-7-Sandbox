@@ -15,11 +15,11 @@ CHVD_loadingDialog = true;
 
 {
 	sliderSetRange [_x select 0, _x select 6, _x select 2];
-	sliderSetRange [_x select 3, _x select 7, (_x select 5) min (_x select 1)];
+	sliderSetRange [_x select 3,(_x select 5) min (_x select 7), _x select 1];
 	sliderSetSpeed [_x select 0, 500, 500];
 	sliderSetSpeed [_x select 3, 500, 500];
 	sliderSetPosition [_x select 0, _x select 1];
-	sliderSetPosition [_x select 3, (_x select 4) min (_x select 1)];
+	sliderSetPosition [(_x select 4) min (_x select 3),(_x select 1)];
 } forEach [[1900,CHVD_foot,CHVD_maxView,1901,CHVD_footObj,CHVD_maxObj,CHVD_minView,CHVD_minObj],[1902,CHVD_car,CHVD_maxView,1903,CHVD_carObj,CHVD_maxObj,CHVD_minView,CHVD_minObj],[1904,CHVD_air,CHVD_maxView,1905,CHVD_airObj,CHVD_maxObj,CHVD_minView,CHVD_minObj]];
 
 {
