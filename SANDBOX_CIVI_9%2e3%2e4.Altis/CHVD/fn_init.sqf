@@ -7,8 +7,8 @@
 	CHVD_allowNoGrass = if (isNil "CHVD_allowNoGrass") then {true} else {CHVD_allowNoGrass};
 	CHVD_maxView = if (isNil "CHVD_maxView") then {12000} else {CHVD_maxView};
 	CHVD_maxObj = if (isNil "CHVD_maxObj") then {12000} else {CHVD_maxObj};
-	CHVD_minView = if (isNil "CHVD_minView") then {300} else {CHVD_minView};
-	CHVD_minObj = if (isNil "CHVD_minObj") then {300} else {CHVD_minObj};
+	CHVD_minView = if (isNil "CHVD_minView") then {0} else {CHVD_minView};
+	CHVD_minObj = if (isNil "CHVD_minObj") then {0} else {CHVD_minObj};
 	
 	CHVD_footSyncMode = profileNamespace getVariable ["CHVD_footSyncMode",0];
 	CHVD_footSyncPercentage = profileNamespace getVariable ["CHVD_footSyncPercentage",0.8];	
