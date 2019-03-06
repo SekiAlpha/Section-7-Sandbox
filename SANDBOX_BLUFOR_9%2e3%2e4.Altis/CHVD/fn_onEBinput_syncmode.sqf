@@ -16,7 +16,7 @@ call compile format ["profileNamespace setVariable ['%1',%1]", _percentageVar];
 _viewDistVar = "CHVD_" + _varString;
 _viewDist = call compile _viewDistVar;
 _objVDVar = "CHVD_" + _varString + "Obj";
-_objVD = _viewDist * _percentage min CHVD_maxObj max CHVD_minObj;
+_objVD = _viewDist * _percentage min CHVD_maxObj;
 
 sliderSetPosition [_sliderCtrl, _objVD];
 ctrlSetText [_sliderTextboxCtrl, str round _objVD];
