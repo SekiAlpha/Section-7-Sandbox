@@ -2,7 +2,7 @@
 These are the different Sandboxes that S7 uses for operations. This includes the BLUEFOR, OPFOR, INDI, and CIVI Sandboxes.
 
 # Naming Schema
-  SANDBOX_"Faction Side"_"Version Number"
+  SANDBOX_"Version Number"_"Custom"
  
 # How to make another Sandbox
   1. Download the most up to date Sandbox from the releases tab.
