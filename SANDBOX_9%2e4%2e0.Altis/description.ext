@@ -4,6 +4,7 @@ OnLoadMission = "Lets Kill Shit";
 loadScreen = "s7.jpg";
 Respawn = "base";
 RespawnDelay = 5;
+respawnTemplates[] = {"MenuPosition"};
 DisabledAI = true;
 enableDebugConsole = 1; // Debug Console
 class Header
