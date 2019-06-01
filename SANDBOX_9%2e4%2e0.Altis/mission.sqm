@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=10835;
+		nextID=10836;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1942;
+		nextID=1967;
 	};
 	class Camera
 	{
-		pos[]={16986.115,84.269234,12318.108};
-		dir[]={0.78787625,-0.32984129,-0.52031112};
-		up[]={0.27537459,0.94402677,-0.18185593};
-		aside[]={-0.55114067,-3.8668513e-006,-0.83453828};
+		pos[]={26922.438,33.8769,24937.527};
+		dir[]={-0.48302945,-0.5891456,0.64780188};
+		up[]={-0.35217744,0.80802,0.47231364};
+		aside[]={0.80169487,4.9942173e-008,0.59777915};
 	};
 };
 binarizationWanted=0;
@@ -9327,7 +9327,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=675;
+		items=676;
 		class Item0
 		{
 			dataType="Layer";
@@ -55100,6 +55100,180 @@ class Mission
 					};
 				};
 				nAttributes=4;
+			};
+		};
+		class Item675
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={26902.676,23.334597,24884.338};
+				angles[]={6.2765174,3.9006662,0.019996032};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				textures="standard";
+			};
+			id=10835;
+			type="rhsusf_m998_w_4dr_halftop";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=4;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="rhs_decalDoors";
+					expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="pol_isaf_v3_ca";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="rhs_decalMask";
+					expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="82ndab_505reg_1stbn_e25_w_ca";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[""rhs_mag_30Rnd_556x45_Mk262_Stanag"",""MRAWS_HEAT_F"",""MRAWS_HE_F"",""SmokeShellBlue"",""ACE_Chemlight_HiBlue"",""Laserbatteries""],[150,25,10,20,20,10]],[[""ACE_elasticBandage"",""ToolKit"",""ACE_morphine"",""ACE_epinephrine"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_personalAidKit"",""ACE_bodyBag"",""ACE_key_lockpick"",""adv_aceCPR_AED"",""tfw_rf3080Item"",""ACE_IR_Strobe_Item"",""ACE_CableTie"",""ACE_Clacker"",""ACE_DefusalKit"",""ACE_EarPlugs"",""ACE_Fortify""],[500,3,100,100,100,100,100,10,1,1,10,3,10,2,2,5,10,1]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_isRepairVehicle";
+					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ace_isMedicalVehicle";
+					expression="_this setVariable [""ace_medical_medicClass"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ace_cargo_space";
+					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=100;
+						};
+					};
+				};
+				nAttributes=8;
 			};
 		};
 	};
