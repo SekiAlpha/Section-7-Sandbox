@@ -14,3 +14,6 @@ These are the different Sandboxes that S7 uses for operations. This includes the
   7. The last thing you do is open the mission.sqm file and delete the addons in the required addons array.
   8. Rename your mission folder iby using the the naming schema.
   9. If sending directly to a server administrator compile the mission into a pbo using PBO Manager or upload the files RAW into github or any file sharing software.
+
+# Compositions folder
+Contains compositions that make up the sandbox. Put these in your compositions folder located in your arma 3 profile to gain access to them.
