@@ -6,7 +6,8 @@ loadScreen = "s7.jpg";
 Respawn = "base";
 RespawnDelay = 5;
 respawnTemplates[] = {"MenuPosition","Tickets"};
-respawnOnStart = -1;
+respawnTemplatesVirtual[] = {};
+
 
 DisabledAI = true;
 enableDebugConsole = 1; // Debug Console
