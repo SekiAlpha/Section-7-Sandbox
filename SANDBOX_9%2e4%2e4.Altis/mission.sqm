@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=129;
 	class ItemIDProvider
 	{
-		nextID=11400;
+		nextID=11408;
 	};
 	class MarkerIDProvider
 	{
-		nextID=81;
+		nextID=84;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1992;
+		nextID=2042;
 	};
 	class Camera
 	{
-		pos[]={27022.904,300.69531,24800.525};
-		dir[]={-0.53907633,-0.78873736,0.29561758};
-		up[]={-0.6916219,0.6146729,0.37926918};
-		aside[]={0.48084837,5.3038821e-007,0.87685788};
+		pos[]={27029.971,157.78146,24814.256};
+		dir[]={-0.5743832,-0.78095454,0.2455484};
+		up[]={-0.71813732,0.62452978,0.30700219};
+		aside[]={0.39310414,5.3481199e-007,0.91954595};
 	};
 };
 binarizationWanted=0;
@@ -9327,7 +9327,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=685;
+		items=689;
 		class Item0
 		{
 			dataType="Layer";
@@ -57029,6 +57029,42 @@ class Mission
 			{
 			};
 			id=11388;
+		};
+		class Item685
+		{
+			dataType="Marker";
+			position[]={26900.689,21.59,24899.516};
+			name="respawn_civilian";
+			type="Empty";
+			id=11404;
+			atlOffset=-9.5367432e-005;
+		};
+		class Item686
+		{
+			dataType="Marker";
+			position[]={26900.689,21.59,24899.516};
+			name="respawn_guerrila";
+			type="Empty";
+			id=11405;
+			atlOffset=-9.5367432e-005;
+		};
+		class Item687
+		{
+			dataType="Marker";
+			position[]={26900.689,21.59,24899.516};
+			name="respawn_east";
+			type="Empty";
+			id=11406;
+			atlOffset=-9.5367432e-005;
+		};
+		class Item688
+		{
+			dataType="Marker";
+			position[]={26900.689,21.59,24899.516};
+			name="respawn_west";
+			type="Empty";
+			id=11407;
+			atlOffset=-9.5367432e-005;
 		};
 	};
 };
