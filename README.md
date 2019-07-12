@@ -3,6 +3,8 @@ These are the different Sandboxes that S7 uses for operations. This includes the
 
 # Naming Schema
   SANDBOX_"Version Number"_"Custom"
+  - Version Number: "x-x-x"
+  - Custom: If the sandbox is not using the default base add a custom name to differetiate your sandbox
  
 # How to make another Sandbox
   1. Download the most up to date Sandbox from the releases tab.
