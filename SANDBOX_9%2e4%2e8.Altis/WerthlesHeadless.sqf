@@ -3,16 +3,16 @@
 //Split AI Groups Evenly Among Headless Clients
 
 //private variables
-private ["_recurrent", "_timeBetween", "_debug", "_advanced", "_startDelay", "_pause", "_report", "_moreBadNames", "_badNames", "_syncGroup", "_trigSyncs", "_waySyncs", "_objSyncs", "_objs", "_wayPoint", "_localCount", "_groupMoving", "_HCName", "_transfers", "_hintType", "_hintParams", "_lineString", "_breakString", "_debugString", "_hintParams1", "_hintParams2", "_stringInfo1", "_stringInfo2", "_stringInfo3", "_stringInfo4", "_strTransfers", "_strRecurrent", "_arb", "_debugging", "_check", "_hcColour", "_z", "_On", "_counts", "_HCgroups", "_null", "_recurrentCheck", "_ll", "_who", "_amount", "_gg", "_whom", "_inWHKHeadlessArray", "_headlessCount", "_unitsInGroup", "_size", "_lead", "_leadOwner", "_leadHeadless", "_WHKDummyWaypoint", "_moveToHC", "_bad", "_syncTrigArray", "_syncWayArray", "_wayNum", "_syncedTrigs", "_syncedWays", "_syncObjectsArray", "_syncObjects", "_nameOfSync", "_found", "_zz", "_HC", "_fewest", "_local", "_newSum", "_firstWaypoint", "_balanced", "_maxHC", "_minHC", "_diff", "_maxHCName", "_maxGroupCount", "_maxGroup"];
+private ["_recurrent", "_debug", "_advanced", "_startDelay", "_report", "_moreBadNames", "_badNames", "_syncGroup", "_trigSyncs", "_waySyncs", "_objSyncs", "_objs", "_wayPoint", "_localCount", "_groupMoving", "_HCName", "_transfers", "_hintType", "_hintParams", "_lineString", "_breakString", "_debugString", "_hintParams1", "_hintParams2", "_stringInfo1", "_stringInfo2", "_stringInfo3", "_stringInfo4", "_strTransfers", "_strRecurrent", "_arb", "_debugging", "_check", "_hcColour", "_z", "_On", "_counts", "_HCgroups", "_null", "_recurrentCheck", "_ll", "_who", "_amount", "_gg", "_whom", "_inWHKHeadlessArray", "_headlessCount", "_unitsInGroup", "_size", "_lead", "_leadOwner", "_leadHeadless", "_WHKDummyWaypoint", "_moveToHC", "_bad", "_syncTrigArray", "_syncWayArray", "_wayNum", "_syncedTrigs", "_syncedWays", "_syncObjectsArray", "_syncObjects", "_nameOfSync", "_found", "_zz", "_HC", "_fewest", "_local", "_newSum", "_firstWaypoint", "_balanced", "_maxHC", "_minHC", "_diff", "_maxHCName", "_maxGroupCount", "_maxGroup"];
 
 //Ignored Special Variables: _this, _x, _forEachIndex.
 //script parameters
 _recurrent = _this select 0; // run repeatedly
-_timeBetween = _this select 1; // time between each check
+whk_timeBetween = _this select 1; // time between each check
 _debug = _this select 2; // debug available for all or just admin
 _advanced = _this select 3; // selects which AI distribution method to use
 _startDelay = _this select 4; // how long to wait before running
-_pause = _this select 5; // how long to wait between each setGroupOwner, longer aids syncing
+whk_pause = _this select 5; // how long to wait between each setGroupOwner, longer aids syncing
 _report = _this select 6; // turn setup report on or off
 _moreBadNames = _this select 7; // check for units, groups, classes, vehicles or modules with these words in their name, then ignore the associated unit's group
 _moreBadKinds = _this select 8; // check for unit, groups, classes, vehicles or modules with these typs, then ignore the assosiated unit's group.
