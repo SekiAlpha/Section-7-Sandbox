@@ -671,11 +671,11 @@ if (isMultiplayer) then
 								WHKHeadlessLocalCounts set [_ll,_newSum];
 							};
 							
-							sleep (_pause/3);
+							sleep (whk_pause/3);
 							
 							//Move unit to 
 							_moveToHC = _groupMoving setGroupOwner _HC;
-							sleep (_pause/3);
+							sleep (whk_pause/3);
 							
 							//broadcast debug stuff
 							if (WHKDEBUGHC and _moveToHC) then
@@ -685,7 +685,7 @@ if (isMultiplayer) then
 								publicVariable "WHKHeadlessGroups";
 								publicVariable "WHKHeadlessGroupOwners";
 							};
-							sleep (_pause/3);
+							sleep (whk_pause/3);
 						};
 					};
 				}forEach allGroups;
@@ -778,7 +778,7 @@ if (isMultiplayer) then
 							_WHKDummyWaypoint setWaypointTimeout [6,6,6];
 							_WHKDummyWaypoint setWaypointCompletionRadius 100;
 
-							sleep (_pause/3);
+							sleep (whk_pause/3);
 
 							_moveToHC = false;
 							_bad = false;
@@ -807,7 +807,7 @@ if (isMultiplayer) then
 							//reattach triggers and waypoints
 							[[_groupMoving,_syncTrigArray,_syncWayArray,_syncObjectsArray],"WHKSyncArrays",true,false] call BIS_fnc_MP;
 
-							sleep (_pause/3);
+							sleep (whk_pause/3);
 							//reattach triggers and waypoints
 							[[_groupMoving,_syncTrigArray,_syncWayArray,_syncObjectsArray],"WHKSyncArrays",true,false] call BIS_fnc_MP;
 
@@ -826,7 +826,7 @@ if (isMultiplayer) then
 								WHKHeadlessLocalCounts set [_minHC,(WHKHeadlessLocalCounts select _minHC) + _maxGroupCount];
 								WHKHeadlessLocalCounts set [_maxHC,(WHKHeadlessLocalCounts select _maxHC) - _maxGroupCount];
 							};
-							sleep (_pause/3);
+							sleep (whk_pause/3);
 
 
 							//_firstWaypoint = (waypoints _groupMoving) select 1;
@@ -866,7 +866,7 @@ if (isMultiplayer) then
 			};
 			
 			//time between checks
-			sleep _timeBetween;
+			sleep whk_timeBetween;
 		};
 	};	
 }
