@@ -194,30 +194,6 @@ if (isMultiplayer) then
 			hintSilent composeText hintArray;
 		";
 		
-		WHKAction = player addAction ["<t color='#C67171'>Toggle WHK Debug",
-		{
-			if (WHKDEBUGGER == player) then
-			{
-				WHKDEBUGHC = !WHKDEBUGHC;
-				publicVariable "WHKDEBUGHC";
-			}
-			else
-			{
-				WHKDEBUGGER = player;
-				publicVariable "WHKDEBUGGER";
-				WHKDEBUGHC = true;
-				publicVariable "WHKDEBUGHC";
-			};
-			if (WHKDEBUGHC) then
-			{
-				[1,[]] call WHKDebugHint;
-			}
-			else
-			{
-				[2,[]] call WHKDebugHint;
-			};
-		},nil,-666,false,true,"",WHKCondition];
-		
 		_action = ["debugWHK", "<t color='#C67171'>Toggle WHK Debug", "", { 
 			if (WHKDEBUGGER == player) then 
 			{ 
@@ -242,47 +218,6 @@ if (isMultiplayer) then
 		}, {true}] call ace_interact_menu_fnc_createAction;  
          
         [["ACE_ZeusActions"], _action] call ace_interact_menu_fnc_addActionToZeus;
-		
-		_arb = player addEventHandler ["respawn",
-		{
-			(_this select 1) removeAction WHKAction;
-			if (WHKDEBUGGER == (_this select 1)) then
-			{
-				WHKDEBUGGER = (_this select 0);
-				publicVariable "WHKDEBUGGER";
-			};
-			if (isNull WHKDEBUGGER) then
-			{
-				WHKDEBUGGER = false;
-				publicVariable "WHKDEBUGGER";
-				WHKDEBUGHC = false;
-				publicVariable "WHKDEBUGHC";
-			};
-			WHKAction = (_this select 0) addAction ["<t color='#C67171'>Toggle WHK Debug",
-			{
-			
-				if (WHKDEBUGGER == player) then
-				{
-					WHKDEBUGHC = !WHKDEBUGHC;
-					publicVariable "WHKDEBUGHC";
-				}
-				else
-				{
-					WHKDEBUGGER = player;
-					publicVariable "WHKDEBUGGER";
-					WHKDEBUGHC = true;
-					publicVariable "WHKDEBUGHC";
-				};
-				if (WHKDEBUGHC) then
-				{
-					[1,[]] call WHKDebugHint;
-				}
-				else
-				{
-					[2,[]] call WHKDebugHint;
-				};
-			},nil,-666,false,true,"",WHKCondition];
-		}];
 
 		//draw icons if debug is activated for a player
 		_debugging = [_debug] spawn {
@@ -291,7 +226,7 @@ if (isMultiplayer) then
 			//check if debug has been (de)activated
 			while {true} do
 			{
-				if ((WHKDEBUGHC and _check and WHKDEBUGGER == player) and (serverCommandAvailable "#kick" or (_this select 0))) then
+				if (WHKDEBUGHC and _check and WHKDEBUGGER == player) then
 				{
 					_check = false;
 					
