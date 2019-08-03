@@ -86,13 +86,6 @@ if (isMultiplayer) then
 	//debug hints for humans
 	if (hasInterface) then
 	{
-		//Toggle debug action if admin/host
-		WHKCondition = "";
-		if not (_debug) then
-		{
-			WHKCondition = "serverCommandAvailable ""#kick""";
-		};
-
 		//debug hint function
 		WHKDebugHint = compileFinal "
 			_hintType = _this select 0;
