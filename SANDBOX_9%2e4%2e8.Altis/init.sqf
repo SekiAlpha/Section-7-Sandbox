@@ -20,7 +20,7 @@
 CHVD_minView = 300;
 CHVD_minObj = 300;
 CHVD_allowNoGrass = false;
-ACE_maxWeightDrag = 6000;
+ACE_maxWeightDrag = 7000;
 ACE_maxWeightCarry = 2000;
 
 execVM "show_fps.sqf";
