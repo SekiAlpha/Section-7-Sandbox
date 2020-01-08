@@ -1,0 +1,42 @@
+version=53;
+center[]={26900.689,21.59,24899.516};
+class items
+{
+	items=4;
+	class Item0
+	{
+		dataType="Marker";
+		position[]={0,0,0};
+		name="respawn_civilian";
+		type="Empty";
+		id=11404;
+		atlOffset=-9.5367432e-005;
+	};
+	class Item1
+	{
+		dataType="Marker";
+		position[]={0,0,0};
+		name="respawn_guerrila";
+		type="Empty";
+		id=11405;
+		atlOffset=-9.5367432e-005;
+	};
+	class Item2
+	{
+		dataType="Marker";
+		position[]={0,0,0};
+		name="respawn_east";
+		type="Empty";
+		id=11406;
+		atlOffset=-9.5367432e-005;
+	};
+	class Item3
+	{
+		dataType="Marker";
+		position[]={0,0,0};
+		name="respawn_west";
+		type="Empty";
+		id=11407;
+		atlOffset=-9.5367432e-005;
+	};
+};
