@@ -8,7 +8,7 @@ These are the different Sandboxes that S7 uses for operations. This includes the
  
 # How to make another Sandbox
   1. Download the most up to date Sandbox from the releases tab.
-  2. Open the Sanbox type you want in the Eden editor.
+  2. Open the map you want in the Eden editor.
   3. Copy over all assets in 3DEN and paste it into a new map.
   4. Make sure 3DEN is set to not Binarize files.
   5. Open up the new mission file in Windows Explorer.
