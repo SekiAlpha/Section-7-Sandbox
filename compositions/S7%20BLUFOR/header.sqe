@@ -1,4 +1,8 @@
-version=53;
+version=54;
 name="S7 BLUFOR";
 author="SekiGamer";
 category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Characters_F"
+};
