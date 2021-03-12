@@ -1,7 +1,7 @@
 ﻿Author = "Peterson";
 onLoadName = "S7-SANDBOX";
 OnLoadMission = "Lets Kill Shit";
-loadScreen = "s7.jpg";
+loadScreen = "photos\s7.paa";
 
 Respawn = "base";
 RespawnDelay = 5;
@@ -19,9 +19,12 @@ class Header
 	maxPlayers=122;
 };
 
+#include "KPGUI\KPGUI_defines.hpp"
+#include "KPCF\ui\KPCF_dialog.hpp"
 #include "CHVD\dialog.hpp"
 class CfgFunctions
 {
+	#include "KPCF\KPCF_functions.hpp"
 	#include "CHVD\CfgFunctions.hpp"
 };
 
