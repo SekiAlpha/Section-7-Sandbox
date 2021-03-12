@@ -2,7 +2,7 @@
 These are the different Sandboxes that S7 uses for operations. This includes the BLUEFOR, OPFOR, INDI, and CIVI Sandboxes.
 
 # Naming Schema
-  SANDBOX_"Version Number"_"Custom"
+  SANDBOX_"Version Number"_"Map Version"_"Custom"
   - Version Number: "x.x.x" Major, Minor, Bugfix. One thing to note is that periods in arma are only registered as "%2e".
   - Custom: If the sandbox is not using the default base add a custom name to differetiate your sandbox.
  
@@ -14,7 +14,7 @@ These are the different Sandboxes that S7 uses for operations. This includes the
   5. Open up the new mission file in Windows Explorer.
   6. Add everything from the downloaded mission files into the new mission file except for the mission.sqm.
   7. The last thing you do is open the mission.sqm file and delete the addons in the required addons array.
-  8. Rename your mission folder iby using the the naming schema.
+  8. Rename your mission folder by using the the naming schema.
   9. If sending directly to a server administrator compile the mission into a pbo using PBO Manager or upload the files RAW into github or any file sharing software.
 
 # Compositions folder
