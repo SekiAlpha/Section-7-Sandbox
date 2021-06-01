@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=799;
+		nextID=1027;
 	};
 	class Camera
 	{
-		pos[]={23692.871,51.601803,16238.172};
-		dir[]={-0.11054138,-0.78087085,-0.61489284};
-		up[]={-0.13817032,0.62466031,-0.76858169};
-		aside[]={-0.98425817,3.9045699e-007,0.17694247};
+		pos[]={23710.861,51.601803,16269.78};
+		dir[]={-0.071002945,-0.69965059,0.7110247};
+		up[]={-0.069527917,0.71442837,0.69625425};
+		aside[]={0.99510682,-1.1641532e-009,0.099371761};
 	};
 };
 binarizationWanted=0;
-sourceName="SANDBOX_11%2e0%2e0_Altis";
+sourceName="SANDBOX_11%2e0%2e2_Altis";
 addons[]=
 {
 };
@@ -44269,7 +44269,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setFlagTexture ""photos\1st.jpg""}";
+						init="call{this setFlagTexture ""photos\1st.paa""}";
 					};
 					id=9700;
 					type="FlagPole_F";
@@ -44310,7 +44310,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setFlagTexture ""photos\1st.jpg""}";
+						init="call{this setFlagTexture ""photos\1st.paa""}";
 					};
 					id=9701;
 					type="FlagPole_F";
@@ -45933,7 +45933,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setFlagTexture ""photos\2nd.jpg""}";
+						init="call{this setFlagTexture ""photos\2nd.paa""}";
 					};
 					id=9734;
 					type="FlagPole_F";
@@ -45974,7 +45974,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setFlagTexture ""photos\2nd.jpg""}";
+						init="call{this setFlagTexture ""photos\2nd.paa""}";
 					};
 					id=9735;
 					type="FlagPole_F";
@@ -52853,6 +52853,25 @@ class Mission
 						};
 						class Attribute1
 						{
+							property="ace_rearm_rearmCargo";
+							expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=100000;
+								};
+							};
+						};
+						class Attribute2
+						{
 							property="ace_cargo_size";
 							expression="[_this, _value] call ace_cargo_fnc_setSize;";
 							class Value
@@ -52870,7 +52889,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute2
+						class Attribute3
 						{
 							property="hideObject";
 							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
@@ -52886,25 +52905,6 @@ class Mission
 										};
 									};
 									value=1;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ace_rearm_rearmCargo";
-							expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=100000;
 								};
 							};
 						};
@@ -54103,7 +54103,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setFlagTexture ""photos\avation.jpg""}";
+						init="call{this setFlagTexture ""photos\avation.paa""}";
 					};
 					id=9915;
 					type="FlagPole_F";
@@ -54143,7 +54143,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this setFlagTexture ""photos\medical.jpg""}";
+						init="call{this setFlagTexture ""photos\medical.paa""}";
 					};
 					id=9916;
 					type="FlagPole_F";
@@ -57289,7 +57289,7 @@ class Mission
 													text="RESUPPLY PAD";
 													type="mil_circle";
 													colorName="ColorRed";
-													angle=358.70566;
+													angle=358.70563;
 													id=10023;
 												};
 												class Item1
