@@ -11,6 +11,7 @@ requiredAddons[]=
 	"ace_cargo",
 	"A3_Structures_F_Mil_Flags",
 	"rhsusf_vehicles",
+	"A3_Structures_F_EPA_Civ_Camping",
 	"A3_Ui_F",
 	"A3_Structures_F_Training",
 	"CUP_CAMisc",
@@ -39,6 +40,5 @@ requiredAddons[]=
 	"CUP_Misc3_Config",
 	"A3_Structures_F_Heli_Furniture",
 	"acex_sitting",
-	"A3_Structures_F_EPA_Civ_Camping",
 	"CUP_Buildings_Config"
 };
