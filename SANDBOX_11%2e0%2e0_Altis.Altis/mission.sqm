@@ -16,20 +16,61 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1027;
+		nextID=1179;
 	};
 	class Camera
 	{
-		pos[]={23710.861,51.601803,16269.78};
-		dir[]={-0.071002945,-0.69965059,0.7110247};
-		up[]={-0.069527917,0.71442837,0.69625425};
-		aside[]={0.99510682,-1.1641532e-009,0.099371761};
+		pos[]={23825.467,77.17028,16367.168};
+		dir[]={-0.55747336,-0.58002573,-0.59399295};
+		up[]={-0.39694333,0.81458646,-0.42294678};
+		aside[]={-0.72918105,4.8312359e-008,0.6843468};
 	};
 };
 binarizationWanted=0;
-sourceName="SANDBOX_11%2e0%2e2_Altis";
+sourceName="SANDBOX_11%2e0%2e0_Altis";
 addons[]=
 {
+	"A3_Characters_F",
+	"A3_Data_F_Curator_Virtual",
+	"A3_Modules_F_Curator_Curator",
+	"acex_fortify",
+	"A3_Structures_F_Walls",
+	"A3_Structures_F_Mil_TentHangar",
+	"A3_Props_F_Orange_Humanitarian_Camps",
+	"A3_Weapons_F_Ammoboxes",
+	"ace_cargo",
+	"A3_Structures_F_Mil_Flags",
+	"rhsusf_vehicles",
+	"A3_Structures_F_EPA_Civ_Camping",
+	"A3_Ui_F",
+	"A3_Structures_F_Training",
+	"CUP_CAMisc",
+	"A3_Structures_F_Heli_Ind_Airport",
+	"CUP_Terrains_Winter_Objects",
+	"A3_Structures_F_Mil_Cargo",
+	"A3_Structures_F_Heli_Items_Airport",
+	"A3_Structures_F_Heli_Ind_Machines",
+	"A3_Supplies_F_Heli_Fuel",
+	"ace_rearm",
+	"ace_dragging",
+	"A3_Modules_F",
+	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
+	"A3_Structures_F_Orange_Humanitarian_Camps",
+	"CUP_Misc_e_Config",
+	"A3_Structures_F_Civ_Camping",
+	"ace_repair",
+	"A3_Soft_F_Quadbike_01",
+	"kat_misc",
+	"A3_Structures_F_Mil_Helipads",
+	"A3_Structures_F_Heli_Ind_Cargo",
+	"ace_medical_treatment",
+	"kat_circulation",
+	"A3_Supplies_F_Exp_Ammoboxes",
+	"A3_Structures_F_Mil_BagFence",
+	"CUP_Misc3_Config",
+	"A3_Structures_F_Heli_Furniture",
+	"acex_sitting",
+	"CUP_Buildings_Config"
 };
 class AddonsMetaData
 {
@@ -38419,7 +38460,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -38432,7 +38473,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={23801.498,7.2800107,16335.202};
-						angles[]={0,4.7179804,0};
+						angles[]={0,4.7179742,0};
 					};
 					side="Empty";
 					flags=5;
@@ -38459,7 +38500,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -40859,7 +40900,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -40899,7 +40940,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -40939,7 +40980,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -50806,7 +50847,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -52872,6 +52913,25 @@ class Mission
 						};
 						class Attribute2
 						{
+							property="hideObject";
+							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute3
+						{
 							property="ace_cargo_size";
 							expression="[_this, _value] call ace_cargo_fnc_setSize;";
 							class Value
@@ -52886,25 +52946,6 @@ class Mission
 										};
 									};
 									value=5;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="hideObject";
-							expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=1;
 								};
 							};
 						};

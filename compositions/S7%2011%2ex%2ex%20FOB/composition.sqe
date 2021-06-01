@@ -123,7 +123,7 @@ class items
 										"BOOL"
 									};
 								};
-								value=1;
+								value=0;
 							};
 						};
 					};
@@ -136,7 +136,7 @@ class items
 				class PositionInfo
 				{
 					position[]={96.490234,2.0500112,81.250977};
-					angles[]={0,4.7179804,0};
+					angles[]={0,4.7179742,0};
 				};
 				side="Empty";
 				flags=5;
@@ -163,7 +163,7 @@ class items
 										"BOOL"
 									};
 								};
-								value=1;
+								value=0;
 							};
 						};
 					};
@@ -2563,7 +2563,7 @@ class items
 										"BOOL"
 									};
 								};
-								value=1;
+								value=0;
 							};
 						};
 					};
@@ -2603,7 +2603,7 @@ class items
 										"BOOL"
 									};
 								};
-								value=1;
+								value=0;
 							};
 						};
 					};
@@ -2643,7 +2643,7 @@ class items
 										"BOOL"
 									};
 								};
-								value=1;
+								value=0;
 							};
 						};
 					};
@@ -12510,7 +12510,7 @@ class items
 										"BOOL"
 									};
 								};
-								value=1;
+								value=0;
 							};
 						};
 					};
@@ -14557,25 +14557,6 @@ class items
 					};
 					class Attribute1
 					{
-						property="hideObject";
-						expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					class Attribute2
-					{
 						property="ace_cargo_size";
 						expression="[_this, _value] call ace_cargo_fnc_setSize;";
 						class Value
@@ -14590,6 +14571,25 @@ class items
 									};
 								};
 								value=5;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="hideObject";
+						expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
 					};
