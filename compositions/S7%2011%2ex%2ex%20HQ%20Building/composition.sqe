@@ -1,263 +1,1910 @@
 version=54;
-center[]={3233.7947,5,4040.5923};
+center[]={23704.703,5.2838478,16246.795};
 class items
 {
-	items=47;
+	items=1;
 	class Item0
 	{
-		dataType="Object";
-		class PositionInfo
+		dataType="Layer";
+		name="S7 11.x.x FOB";
+		class Entities
 		{
-			position[]={16.147217,1.9449992,-7.595459};
-			angles[]={0,1.5740377,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=203;
-		type="rhsusf_m998_w_4dr_fulltop";
-		class CustomAttributes
-		{
-			class Attribute0
+			items=47;
+			class Item0
 			{
-				property="rhs_decalMask";
-				expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="NoChange";
-					};
+					position[]={16.15625,1.95579,-7.5585938};
+					angles[]={6.2805333,1.5740377,0};
 				};
-			};
-			class Attribute1
-			{
-				property="rhs_decalDoors";
-				expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
-				class Value
+				side="Empty";
+				flags=4;
+				class Attributes
 				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="NoChange";
-					};
 				};
-			};
-			class Attribute2
-			{
-				property="ace_isMedicalVehicle";
-				expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
-				class Value
+				id=9736;
+				type="rhsusf_m998_w_4dr_fulltop";
+				class CustomAttributes
 				{
-					class data
+					class Attribute0
 					{
-						class type
+						property="rhs_decalMask";
+						expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"SCALAR"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="ammoBox";
-				expression="[_this,_value] call bis_fnc_initAmmoBox;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="[[[[""FirstAidKit""],[4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_M441_HE"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,8,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[1]]],false]";
-					};
-				};
-			};
-			nAttributes=4;
-		};
-	};
-	class Item1
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={15.566162,1.9449992,-1.6242676};
-			angles[]={0,1.5769434,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=204;
-		type="rhsusf_m998_w_2dr_halftop";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="rhs_decalMask";
-				expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="NoChange";
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="rhs_decalDoors";
-				expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="NoChange";
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="ammoBox";
-				expression="[_this,_value] call bis_fnc_initAmmoBox;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="[[[[""FirstAidKit""],[4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_M441_HE"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,8,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[1]]],false]";
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="ace_isMedicalVehicle";
-				expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			nAttributes=4;
-		};
-	};
-	class Item2
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={15.648193,1.9449992,4.4804688};
-			angles[]={0,1.5696702,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=238;
-		type="rhsusf_m998_w_4dr_halftop";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="VehicleCustomization";
-				expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"ARRAY"
-							};
-						};
-						class value
-						{
-							items=2;
-							class Item0
-							{
-								class data
+								class type
 								{
-									class type
+									type[]=
 									{
-										type[]=
+										"STRING"
+									};
+								};
+								value="NoChange";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="rhs_decalDoors";
+						expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="NoChange";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ace_isMedicalVehicle";
+						expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ammoBox";
+						expression="[_this,_value] call bis_fnc_initAmmoBox;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="[[[[""FirstAidKit""],[4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_M441_HE"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,8,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[1]]],false]";
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={15.574219,1.9717178,-1.5869141};
+					angles[]={6.2805333,1.5769434,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=9737;
+				type="rhsusf_m998_w_2dr_halftop";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="rhs_decalMask";
+						expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="NoChange";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="rhs_decalDoors";
+						expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="NoChange";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="ammoBox";
+						expression="[_this,_value] call bis_fnc_initAmmoBox;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="[[[[""FirstAidKit""],[4]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_M441_HE"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,8,4,2,2,4]],[[],[]],[[""rhsusf_falconii""],[1]]],false]";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="ace_isMedicalVehicle";
+						expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.71289063,0.45227957,-4.109375};
+					angles[]={6.2805333,6.2802854,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=10187;
+				type="Land_WoodenTable_large_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.72265625,0.45810461,-1.9257813};
+					angles[]={6.2805333,6.2776504,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=10185;
+				type="Land_WoodenTable_large_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.74609375,0.46119165,0.26171875};
+					angles[]={6.2818937,6.2770061,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=10186;
+				type="Land_WoodenTable_large_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={15.65625,1.9879971,4.5185547};
+					angles[]={6.2805333,1.5696702,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=9738;
+				type="rhsusf_m998_w_4dr_halftop";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="VehicleCustomization";
+						expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=2;
+									class Item0
+									{
+										class data
 										{
-											"ARRAY"
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
 										};
 									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=16;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="hide_backTop";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item2
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="hide_snorkel";
+													};
+												};
+												class Item3
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item4
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="hide_CIP";
+													};
+												};
+												class Item5
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item6
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="hide_BFT";
+													};
+												};
+												class Item7
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item8
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="hide_Antenna";
+													};
+												};
+												class Item9
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item10
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="hide_A2_Parts";
+													};
+												};
+												class Item11
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item12
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="Hide_A2Bumper";
+													};
+												};
+												class Item13
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item14
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="Hide_Brushguard";
+													};
+												};
+												class Item15
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item6
+			{
+				dataType="Logic";
+				class PositionInfo
+				{
+					position[]={-0.50390625,129.12448,6.0761719};
+					angles[]={0,3.151237,0};
+				};
+				areaSize[]={100,0,85};
+				areaIsRectangle=1;
+				flags=1;
+				id=9956;
+				type="ModuleHideTerrainObjects_F";
+				atlOffset=120.3181;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="#filter";
+						expression="_this setVariable [""#filter"",_value]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=15;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="#hideLocally";
+						expression="_this setVariable [""#hideLocally"",_value]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Marker";
+				position[]={-0.40234375,5.0966721,-0.76855469};
+				name="marker_159";
+				text="COMPANY CP";
+				type="mil_circle";
+				colorName="ColorRed";
+				angle=88.915367;
+				id=9959;
+				atlOffset=4.204515;
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.32617188,0.052348614,15.65332};
+					angles[]={0,3.126862,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=9960;
+				type="Land_BriefingRoomScreen_01_F";
+				atlOffset=0.006000042;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={13.767578,0.43738747,-4.8242188};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10117;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={16.759766,0.43750954,-4.7792969};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10118;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={13.636719,0.4534812,1.2099609};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10119;
+				type="Land_BagFence_Long_F";
+			};
+			class Item12
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={16.587891,0.45354939,1.2373047};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10120;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item13
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={13.726563,0.46845675,6.8261719};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10121;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item14
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={16.685547,0.46845198,6.8242188};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10122;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item15
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={13.931641,0.42224598,-10.501953};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10123;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item16
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={16.882813,0.42232418,-10.473633};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10124;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item17
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={12.193359,0.43370104,-6.2070313};
+					angles[]={6.2805333,4.703928,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10125;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item18
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={12.21875,0.42583466,-9.15625};
+					angles[]={6.2805333,4.703928,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10126;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item19
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.988281,0.44928217,-0.36328125};
+					angles[]={6.2805333,4.6991968,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10127;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item20
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={12.029297,0.44141579,-3.3144531};
+					angles[]={6.2805333,4.6991968,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10128;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item21
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.904297,0.46528292,5.6357422};
+					angles[]={6.2805333,4.7155857,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10129;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item22
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.925781,0.45737791,2.671875};
+					angles[]={6.2805333,4.7155857,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10130;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item23
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.935547,0.43428183,-5.9882813};
+					angles[]={6.2805333,1.5725365,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10131;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item24
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.935547,0.44214344,-3.0400391};
+					angles[]={6.2805333,1.5725365,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10132;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item25
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.988281,0.44789553,0.028320313};
+					angles[]={6.2818937,1.5876685,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10133;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item26
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-12.941406,0.4518261,2.9765625};
+					angles[]={6.2818937,1.5876685,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10134;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item27
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-17.628906,0.44580078,-1.5429688};
+					angles[]={6.2818937,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10135;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item28
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-14.679688,0.44583464,-1.5166016};
+					angles[]={6.2818937,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10136;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item29
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-20.65625,0.44573689,-1.5898438};
+					angles[]={6.2818937,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10137;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item30
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-17.625,0.43061495,-7.3642578};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10138;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item31
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-14.675781,0.43068361,-7.3378906};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10139;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item32
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-20.617188,0.43059063,-7.3730469};
+					angles[]={6.2805333,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10140;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item33
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-17.691406,0.45356464,4.2802734};
+					angles[]={6.2818937,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10141;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item34
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-14.744141,0.45359612,4.3037109};
+					angles[]={6.2818937,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10142;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item35
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-20.650391,0.45352316,4.2490234};
+					angles[]={6.2818937,3.1338656,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					disableSimulation=1;
+				};
+				id=10143;
+				type="Land_BagFence_Long_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item36
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.74414063,1.817008,13.783203};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10144;
+				type="Land_tent_east";
+				atlOffset=0.0090255737;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item37
+			{
+				dataType="Layer";
+				name="S7 11.x.x HQ Building_1";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="S7 11.0.1 FOB_3";
+						class Entities
+						{
+							items=29;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.71875,4.1157608,-1.9287109};
+									angles[]={0,3.1415927,0};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=10147;
+								type="Land_TentHangar_V1_F";
+								atlOffset=4.7683716e-007;
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
 								};
 							};
 							class Item1
 							{
-								class data
+								dataType="Object";
+								class PositionInfo
 								{
-									class type
+									position[]={4.4375,0.43788338,-1.7294922};
+									angles[]={6.2805333,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10148;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										type[]=
-										{
-											"ARRAY"
-										};
-									};
-									class value
-									{
-										items=16;
-										class Item0
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
 											class data
 											{
@@ -265,3234 +1912,1626 @@ class items
 												{
 													type[]=
 													{
-														"STRING"
-													};
-												};
-												value="hide_backTop";
-											};
-										};
-										class Item1
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=1;
-											};
-										};
-										class Item2
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="hide_snorkel";
-											};
-										};
-										class Item3
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=1;
-											};
-										};
-										class Item4
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="hide_CIP";
-											};
-										};
-										class Item5
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-										class Item6
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="hide_BFT";
-											};
-										};
-										class Item7
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-										class Item8
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="hide_Antenna";
-											};
-										};
-										class Item9
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-										class Item10
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="hide_A2_Parts";
-											};
-										};
-										class Item11
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-										class Item12
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="Hide_A2Bumper";
-											};
-										};
-										class Item13
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
-													};
-												};
-												value=0;
-											};
-										};
-										class Item14
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"STRING"
-													};
-												};
-												value="Hide_Brushguard";
-											};
-										};
-										class Item15
-										{
-											class data
-											{
-												class type
-												{
-													type[]=
-													{
-														"SCALAR"
+														"BOOL"
 													};
 												};
 												value=0;
 											};
 										};
 									};
+									nAttributes=1;
 								};
 							};
-						};
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item3
-	{
-		dataType="Marker";
-		position[]={-0.40991211,5.0518847,-0.80615234};
-		name="marker_159";
-		text="COMPANY CP";
-		type="mil_circle";
-		colorName="ColorRed";
-		angle=88.915367;
-		id=640;
-		atlOffset=4.1872931;
-	};
-	class Item4
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.3347168,-0.0089044571,15.616211};
-			angles[]={0,3.126862,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=658;
-		type="Land_BriefingRoomScreen_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
+							class Item2
 							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item5
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.83129883,0,13.788574};
-			angles[]={-0,4.723402,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=678;
-		type="Land_MedicalTent_01_floor_dark_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item6
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={13.758545,0.41931152,-4.8613281};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=831;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item7
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={16.751221,0.41931152,-4.8168945};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=832;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item8
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={13.628418,0.41931152,1.1723633};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=833;
-		type="Land_BagFence_Long_F";
-	};
-	class Item9
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={16.580078,0.41931152,1.199707};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=834;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item10
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={13.718018,0.41931152,6.7885742};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=835;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item11
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={16.67749,0.41931152,6.7866211};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=836;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item12
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={13.923828,0.41931152,-10.539795};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=837;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item13
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={16.873779,0.41931152,-10.51123};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=838;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item14
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={12.185303,0.41931152,-6.2443848};
-			angles[]={0,4.703928,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=839;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item15
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={12.211182,0.41931152,-9.1931152};
-			angles[]={0,4.703928,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=840;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item16
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={11.979736,0.41931152,-0.40112305};
-			angles[]={0,4.6991968,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=841;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item17
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={12.020752,0.41931152,-3.3515625};
-			angles[]={0,4.6991968,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=842;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item18
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={11.895264,0.41931152,5.5981445};
-			angles[]={0,4.7155857,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=843;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item19
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={11.918457,0.41931152,2.6342773};
-			angles[]={0,4.7155857,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=844;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item20
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-12.943604,0.41931152,-6.0251465};
-			angles[]={0,1.5725365,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=845;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item21
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-12.943848,0.41931152,-3.0771484};
-			angles[]={0,1.5725365,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=846;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item22
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-12.99585,0.41931152,-0.0092773438};
-			angles[]={0,1.5876685,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=847;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item23
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-12.950439,0.41931152,2.9389648};
-			angles[]={0,1.5876685,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=848;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item24
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-17.637207,0.41931152,-1.5808105};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=849;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item25
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-14.6875,0.41931152,-1.5539551};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=850;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item26
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-20.665283,0.41931152,-1.6276855};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=851;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item27
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-17.632813,0.41931152,-7.4018555};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=852;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item28
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-14.683838,0.41931152,-7.3757324};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=853;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item29
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-20.626221,0.41931152,-7.4099121};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=854;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item30
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-17.700439,0.41931152,4.2426758};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=855;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item31
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-14.752441,0.41931152,4.2661133};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=856;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item32
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-20.658447,0.41931152,4.2114258};
-			angles[]={0,3.1338656,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			disableSimulation=1;
-		};
-		id=857;
-		type="Land_BagFence_Long_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item33
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.75219727,1.7557778,13.746338};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=860;
-		type="Land_tent_east";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item34
-	{
-		dataType="Layer";
-		name="S7 11.x.x HQ Building";
-		class Entities
-		{
-			items=1;
-			class Item0
-			{
-				dataType="Layer";
-				name="S7 11.0.1 FOB";
-				class Entities
-				{
-					items=29;
-					class Item0
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.7277832,4.0899649,-1.9663086};
-							angles[]={0,3.1415927,0};
-						};
-						side="Empty";
-						flags=5;
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=863;
-						type="Land_TentHangar_V1_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
+									position[]={4.4082031,0.4430933,0.2265625};
+									angles[]={6.2805333,1.5531831,0};
 								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={4.4296875,0.41155195,-1.7670898};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=864;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								side="Empty";
+								flags=4;
+								class Attributes
 								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
+									createAsSimpleObject=1;
+									disableSimulation=1;
 								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item2
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={4.3991699,0.41155195,0.18823242};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=865;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								id=10149;
+								type="Land_CampingTable_white_F";
+								atlOffset=-4.7683716e-006;
+								class CustomAttributes
 								{
-									class data
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item3
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={4.4641113,0.41155195,-3.7131348};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=866;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item4
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={4.5007324,0.41155195,-5.6472168};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=867;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item5
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-10.802002,3.9768047,-11.639648};
-							angles[]={0,1.4532814,0};
-						};
-						side="Empty";
-						flags=5;
-						class Attributes
-						{
-						};
-						id=868;
-						type="Flag_US_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item6
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-9.5344238,0.89242268,-10.258789};
-							angles[]={-0,2.5024309,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							init="call{[""AmmoboxInit"",[this,true]] call BIS_fnc_arsenal;" \n "[this, true] call ace_arsenal_fnc_initBox;}";
-							disableSimulation=1;
-						};
-						id=869;
-						type="B_supplyCrate_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							class Attribute1
-							{
-								property="ammoBox";
-								expression="[_this,_value] call bis_fnc_initAmmoBox;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-									};
-								};
-							};
-							class Attribute2
-							{
-								property="ace_arsenal_attribute";
-								expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=2;
-											class Item0
-											{
-												class data
+												class type
 												{
-													class type
+													type[]=
 													{
-														type[]=
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item3
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={4.4726563,0.432693,-3.6757813};
+									angles[]={6.2805333,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10150;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item4
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={4.5097656,0.42753172,-5.6103516};
+									angles[]={6.2805333,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10151;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item5
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-10.792969,3.9768047,-11.602539};
+									angles[]={0,1.4532814,0};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=10152;
+								type="Flag_US_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item6
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-9.5253906,0.89610577,-10.22168};
+									angles[]={6.2805333,2.5024309,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									init="call{[""AmmoboxInit"",[this,true]] call BIS_fnc_arsenal;" \n "[this, true] call ace_arsenal_fnc_initBox;}";
+									disableSimulation=1;
+								};
+								id=10153;
+								type="B_supplyCrate_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="ammoBox";
+										expression="[_this,_value] call bis_fnc_initAmmoBox;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+											};
+										};
+									};
+									class Attribute2
+									{
+										property="ace_arsenal_attribute";
+										expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"ARRAY"
+													};
+												};
+												class value
+												{
+													items=2;
+													class Item0
+													{
+														class data
 														{
-															"ARRAY"
+															class type
+															{
+																type[]=
+																{
+																	"ARRAY"
+																};
+															};
+														};
+													};
+													class Item1
+													{
+														class data
+														{
+															class type
+															{
+																type[]=
+																{
+																	"SCALAR"
+																};
+															};
+															value=1;
 														};
 													};
 												};
 											};
-											class Item1
+										};
+									};
+									nAttributes=3;
+								};
+							};
+							class Item7
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={8.4042969,0.89687729,-9.9326172};
+									angles[]={6.2805333,3.8913465,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									init="call{[""AmmoboxInit"",[this,true]] call BIS_fnc_arsenal;" \n "[this, true] call ace_arsenal_fnc_initBox;}";
+									disableSimulation=1;
+								};
+								id=10154;
+								type="B_supplyCrate_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
 											{
-												class data
+												class type
 												{
-													class type
+													type[]=
 													{
-														type[]=
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="ammoBox";
+										expression="[_this,_value] call bis_fnc_initAmmoBox;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+											};
+										};
+									};
+									class Attribute2
+									{
+										property="ace_arsenal_attribute";
+										expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"ARRAY"
+													};
+												};
+												class value
+												{
+													items=2;
+													class Item0
+													{
+														class data
 														{
-															"SCALAR"
+															class type
+															{
+																type[]=
+																{
+																	"ARRAY"
+																};
+															};
 														};
 													};
-													value=1;
+													class Item1
+													{
+														class data
+														{
+															class type
+															{
+																type[]=
+																{
+																	"SCALAR"
+																};
+															};
+															value=1;
+														};
+													};
 												};
 											};
 										};
 									};
+									nAttributes=3;
 								};
 							};
-							nAttributes=3;
-						};
-					};
-					class Item7
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={8.3952637,0.89242268,-9.9697266};
-							angles[]={-0,3.8913465,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							init="call{[""AmmoboxInit"",[this,true]] call BIS_fnc_arsenal;" \n "[this, true] call ace_arsenal_fnc_initBox;}";
-							disableSimulation=1;
-						};
-						id=870;
-						type="B_supplyCrate_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item8
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
+									position[]={10.472656,3.9775372,-11.329102};
+									angles[]={0,1.4842873,0};
 								};
-							};
-							class Attribute1
-							{
-								property="ammoBox";
-								expression="[_this,_value] call bis_fnc_initAmmoBox;";
-								class Value
+								side="Empty";
+								flags=5;
+								class Attributes
 								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-									};
+									init="call{this setFlagTexture ""photos\S7P.paa""}";
 								};
-							};
-							class Attribute2
-							{
-								property="ace_arsenal_attribute";
-								expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
-								class Value
+								id=10155;
+								type="FlagPole_F";
+								class CustomAttributes
 								{
-									class data
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"ARRAY"
-											};
-										};
-										class value
-										{
-											items=2;
-											class Item0
-											{
-												class data
+												class type
 												{
-													class type
+													type[]=
 													{
-														type[]=
-														{
-															"ARRAY"
-														};
+														"BOOL"
 													};
 												};
+												value=0;
 											};
-											class Item1
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item9
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-6.015625,0.43779135,-1.7314453};
+									angles[]={6.2818937,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10156;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
 											{
-												class data
+												class type
 												{
-													class type
+													type[]=
 													{
-														type[]=
-														{
-															"SCALAR"
-														};
+														"BOOL"
 													};
-													value=1;
 												};
+												value=0;
 											};
 										};
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=3;
-						};
-					};
-					class Item8
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={10.463623,3.9768047,-11.366211};
-							angles[]={0,1.4842873,0};
-						};
-						side="Empty";
-						flags=5;
-						class Attributes
-						{
-							init="call{this setFlagTexture ""photos\S7P.paa""}";
-						};
-						id=873;
-						type="FlagPole_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item10
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-6.046875,0.44039154,0.21972656};
+									angles[]={6.2818937,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10157;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item9
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-6.0241699,0.41155195,-1.7692871};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=874;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item11
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-5.984375,0.43267822,-3.6816406};
+									angles[]={6.2805333,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10158;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item10
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-6.0546875,0.41155195,0.18237305};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=875;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item12
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-5.9472656,0.42752218,-5.6142578};
+									angles[]={6.2805333,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10159;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item11
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-5.9916992,0.41155195,-3.7189941};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=876;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item13
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-2.6425781,0.4186697,-8.9345703};
+									angles[]={6.2805333,0.0005166661,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10160;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item12
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-5.9550781,0.41155195,-5.651123};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=877;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item14
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-3.9980469,0.42017317,-8.3701172};
+									angles[]={6.2805333,0.78591156,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10161;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item13
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-2.6508789,0.41155195,-8.972168};
-							angles[]={-0,0.0005166661,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=878;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item15
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-0.69335938,0.41866446,-8.9355469};
+									angles[]={6.2805333,0.0005166661,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10162;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item14
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-4.0061035,0.41155195,-8.407959};
-							angles[]={-0,0.78591156,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=879;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item16
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={1.2421875,0.41867447,-8.9326172};
+									angles[]={6.2805333,0.0005166661,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10163;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item15
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.70166016,0.41155195,-8.9729004};
-							angles[]={-0,0.0005166661,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=880;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item17
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-5.3730469,0.42385483,-6.9892578};
+									angles[]={6.2805333,0.78591156,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10164;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item16
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={1.2341309,0.41155195,-8.9694824};
-							angles[]={-0,0.0005166661,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=881;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item18
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={2.5976563,0.42023182,-8.3476563};
+									angles[]={6.2805333,5.4982996,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10165;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item17
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-5.3808594,0.41155195,-7.0268555};
-							angles[]={-0,0.78591156,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=882;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item19
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={3.9765625,0.42389917,-6.9726563};
+									angles[]={6.2805333,5.4982996,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10166;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item18
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={2.5883789,0.41155195,-8.3852539};
-							angles[]={-0,5.4982996,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=883;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item20
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={4.3769531,0.44829369,2.1748047};
+									angles[]={6.2805333,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10167;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item19
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={3.9675293,0.41155195,-7.0102539};
-							angles[]={-0,5.4982996,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=884;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item21
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-6.0800781,0.44299173,2.1689453};
+									angles[]={6.2818937,1.5531831,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10168;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item20
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={4.3686523,0.41155195,2.1379395};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=885;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item22
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-2.7773438,0.4496212,5.4599609};
+									angles[]={6.2805333,0.0005166661,0.0013372133};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10169;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item21
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-6.0891113,0.41155195,2.1320801};
-							angles[]={-0,1.5531831,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=886;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item23
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={3.7851563,0.45194149,3.5419922};
+									angles[]={6.2805333,0.78591156,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10170;
+								type="Land_CampingTable_white_F";
+								atlOffset=4.7683716e-007;
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item22
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-2.7858887,0.41155195,5.4228516};
-							angles[]={-0,0.0005166661,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=887;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item24
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-0.86914063,0.45214796,5.4521484};
+									angles[]={6.2805333,0.0005166661,0.0013372133};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10171;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item23
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={3.7766113,0.41155243,3.5041504};
-							angles[]={-0,0.78591156,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=888;
-						type="Land_CampingTable_white_F";
-						atlOffset=4.7683716e-007;
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item25
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={1.046875,0.4546876,5.4462891};
+									angles[]={6.2805333,0.0005166661,0.0013372133};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10172;
+								type="Land_CampingTable_white_F";
+								atlOffset=4.7683716e-007;
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item24
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.87768555,0.41155195,5.4147949};
-							angles[]={-0,0.0005166661,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=889;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item26
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={2.4355469,0.45504332,4.8857422};
+									angles[]={6.2805333,0.78591156,0.0013372133};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10173;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item25
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={1.0383301,0.41155243,5.4086914};
-							angles[]={-0,0.0005166661,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=890;
-						type="Land_CampingTable_white_F";
-						atlOffset=4.7683716e-007;
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item27
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-5.515625,0.44480324,3.5273438};
+									angles[]={6.2818937,5.4982996,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10174;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
-						};
-					};
-					class Item26
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={2.4267578,0.41155195,4.8479004};
-							angles[]={-0,0.78591156,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=891;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item28
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={-4.1367188,0.44664192,4.9072266};
+									angles[]={6.2818937,5.4982996,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									createAsSimpleObject=1;
+									disableSimulation=1;
+								};
+								id=10175;
+								type="Land_CampingTable_white_F";
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=1;
 								};
 							};
-							nAttributes=1;
 						};
-					};
-					class Item27
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-5.5229492,0.41155195,3.4899902};
-							angles[]={-0,5.4982996,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=892;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item28
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-4.145752,0.41155195,4.869873};
-							angles[]={-0,5.4982996,0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=893;
-						type="Land_CampingTable_white_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-							};
-							nAttributes=1;
-						};
+						id=10146;
+						atlOffset=0.0011506081;
 					};
 				};
-				id=861;
+				id=10145;
+				atlOffset=0.0011506081;
 			};
-		};
-		id=934;
-		atlOffset=-2.5;
-	};
-	class Item35
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={0.37670898,0.55821609,10.9375};
-			angles[]={-0,3.1243138,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=935;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item38
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={0.35742188,0.63588858,11.496094};
+					angles[]={0,3.1243138,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10176;
+				type="Land_RattanChair_01_F";
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item36
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={1.482666,0.55821609,11.033691};
-			angles[]={-0,3.0415678,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=936;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item39
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={1.4628906,0.63588905,11.592773};
+					angles[]={0,3.0415678,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10177;
+				type="Land_RattanChair_01_F";
+				atlOffset=4.7683716e-007;
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item37
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={2.3945313,0.55821609,11.481445};
-			angles[]={-0,2.7215092,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=937;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item40
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={2.375,0.63588905,12.040039};
+					angles[]={0,2.7215092,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10178;
+				type="Land_RattanChair_01_F";
+				atlOffset=4.7683716e-007;
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item38
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={3.0314941,0.55821609,12.181641};
-			angles[]={-0,2.5930183,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=938;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item41
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={3.0117188,0.63592577,12.740234};
+					angles[]={0,2.5930183,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10179;
+				type="Land_RattanChair_01_F";
+				atlOffset=3.7193298e-005;
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item39
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-3.3813477,0.55821609,11.344727};
-			angles[]={-0,3.4664333,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=939;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item42
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={-3.4003906,0.63588905,11.90332};
+					angles[]={0,3.4664333,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10180;
+				type="Land_RattanChair_01_F";
+				atlOffset=4.7683716e-007;
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item40
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-2.4104004,0.55821609,11.046387};
-			angles[]={-0,3.0949748,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=940;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item43
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={-2.4296875,0.63588858,11.605469};
+					angles[]={0,3.0949748,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10181;
+				type="Land_RattanChair_01_F";
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item41
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-1.5515137,0.55821609,11.02832};
-			angles[]={-0,3.1243138,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=941;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item44
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={-1.5703125,0.63588905,11.586914};
+					angles[]={0,3.1243138,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10182;
+				type="Land_RattanChair_01_F";
+				atlOffset=4.7683716e-007;
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item42
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.63842773,0.55821609,10.969727};
-			angles[]={-0,3.1243138,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=942;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item45
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={-0.65820313,0.63588858,11.52832};
+					angles[]={0,3.1243138,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10183;
+				type="Land_RattanChair_01_F";
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
-		};
-	};
-	class Item43
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-4.1484375,0.55821609,12.035645};
-			angles[]={-0,3.7889004,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=943;
-		type="Land_RattanChair_01_F";
-		class CustomAttributes
-		{
-			class Attribute0
+			class Item46
 			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
+				dataType="Object";
+				class PositionInfo
 				{
-					class data
+					position[]={-4.1679688,0.63588858,12.594727};
+					angles[]={0,3.7889004,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=10184;
+				type="Land_RattanChair_01_F";
+				atlOffset=0.14247084;
+				class CustomAttributes
+				{
+					class Attribute0
 					{
-						class type
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
 						{
-							type[]=
+							class data
 							{
-								"BOOL"
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
 							};
 						};
-						value=0;
 					};
+					nAttributes=1;
 				};
 			};
-			nAttributes=1;
 		};
-	};
-	class Item44
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.73046875,0.4322958,-1.9628906};
-			angles[]={-0,6.2776504,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			createAsSimpleObject=1;
-			disableSimulation=1;
-		};
-		id=236;
-		type="Land_WoodenTable_large_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item45
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.75439453,0.4322958,0.22460938};
-			angles[]={-0,6.2770061,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			createAsSimpleObject=1;
-			disableSimulation=1;
-		};
-		id=237;
-		type="Land_WoodenTable_large_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
-	class Item46
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.72143555,0.4322958,-4.1469727};
-			angles[]={-0,6.2802854,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			createAsSimpleObject=1;
-			disableSimulation=1;
-		};
-		id=235;
-		type="Land_WoodenTable_large_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=1;
-		};
+		id=10190;
+		atlOffset=0.044990063;
 	};
 };

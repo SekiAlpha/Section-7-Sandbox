@@ -5,9 +5,10 @@ category="EdSubcat_Default";
 requiredAddons[]=
 {
 	"rhsusf_vehicles",
+	"A3_Structures_F_EPA_Civ_Camping",
+	"A3_Modules_F",
 	"A3_Ui_F",
 	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
-	"A3_Structures_F_Orange_Humanitarian_Camps",
 	"A3_Structures_F_Mil_BagFence",
 	"CUP_Misc3_Config",
 	"A3_Structures_F_Mil_TentHangar",
@@ -16,6 +17,5 @@ requiredAddons[]=
 	"A3_Weapons_F_Ammoboxes",
 	"ace_cargo",
 	"A3_Structures_F_Heli_Furniture",
-	"acex_sitting",
-	"A3_Structures_F_EPA_Civ_Camping"
+	"acex_sitting"
 };

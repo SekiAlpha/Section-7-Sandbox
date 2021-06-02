@@ -25,7 +25,6 @@ requiredAddons[]=
 	"ace_dragging",
 	"A3_Modules_F",
 	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
-	"A3_Structures_F_Orange_Humanitarian_Camps",
 	"CUP_Misc_e_Config",
 	"A3_Structures_F_Civ_Camping",
 	"ace_repair",
