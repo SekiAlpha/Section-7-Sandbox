@@ -4,15 +4,11 @@ author="SekiGamer / Larisa";
 category="EdSubcat_Default";
 requiredAddons[]=
 {
-	"A3_Structures_F_Mil_TentHangar",
-	"A3_Props_F_Orange_Humanitarian_Camps",
-	"A3_Weapons_F_Ammoboxes",
-	"ace_cargo",
-	"A3_Structures_F_Mil_Flags",
-	"A3_Ui_F",
 	"ace_repair",
 	"ace_dragging",
+	"A3_Ui_F",
 	"A3_Supplies_F_Heli_Fuel",
+	"A3_Weapons_F_Ammoboxes",
 	"ace_rearm",
 	"A3_Soft_F_Quadbike_01",
 	"kat_misc",
