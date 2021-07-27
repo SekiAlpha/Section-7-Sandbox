@@ -2,8 +2,9 @@
 These are the different Sandboxes that S7 uses for operations. This includes the BLUEFOR, OPFOR, INDI, and CIVI Sandboxes.
 
 # Naming Schema
+  The naming schema is used on the S7 server to help track what sandboxes on the main server need to be updated. We use dashes on the mission files to make them human readable.
   SANDBOX_"Version Number"_"Map Version"_"Custom"
-  - Version Number: "x.x.x" Major, Minor, Bugfix. One thing to note is that periods in arma are only registered as "%2e".
+  - Version Number: "x-x-x" Major, Minor, Bugfix. One thing to note is that periods in arma are only registered as "%2e".
   - Custom: If the sandbox is not using the default base add a custom name to differetiate your sandbox.
  
 # How to make another Sandbox
