@@ -1,6 +1,6 @@
 version=54;
 name="S7 11.x.x Units";
-author="Larisa";
+author="SekiGamer / Larisa";
 category="EdSubcat_Default";
 requiredAddons[]=
 {
