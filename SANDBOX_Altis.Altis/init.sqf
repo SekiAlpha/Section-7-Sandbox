@@ -22,6 +22,4 @@ CHVD_allowNoGrass = false;
 ACE_maxWeightDrag = 7000;
 ACE_maxWeightCarry = 2000;
 
-sleep 60;
-
 execVM "show_fps.sqf";
