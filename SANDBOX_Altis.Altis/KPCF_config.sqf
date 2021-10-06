@@ -34,8 +34,8 @@ KPCF_crates = [
     "ACE_medicalSupplyCrate_advanced",
     "Box_NATO_Ammo_F",
     "Box_NATO_Grenades_F",
-    "Box_NATO_Explosives_F",
-    "Box_NATO_WpsSpecial_F"
+    "Box_NATO_WpsSpecial_F",
+    "Box_NATO_Ord_F"
 ];
 
 
