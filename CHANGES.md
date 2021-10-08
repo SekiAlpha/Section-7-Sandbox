@@ -4,3 +4,5 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 11.2.1
 - ZHC Intergration
+- Changed type of crates KPCF spawns
+- Removed unessecary additional code from KPCF
