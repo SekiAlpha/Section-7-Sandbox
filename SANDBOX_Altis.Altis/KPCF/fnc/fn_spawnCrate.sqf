@@ -45,29 +45,14 @@ if ((!(((getPos KPCF_activeSpawn) nearEntities 5) isEqualTo [])) && _checkSpawn)
 // Spawn crate
 private _crate = createVehicle [_crateType, ((getPos KPCF_activeSpawn) findEmptyPosition [0, 10, _crateType]), [], 0, "NONE"];
 
-if (typeOf _crate == "B_supplyCrate_F") then {
-    _crate setVariable["ace_cargo_size", 5];
-    _crate setVariable["ace_cargo_canLoad", 1];
-    [_crate, true, [0, 2, 0], 0] call ace_dragging_fnc_setDraggable;
-};
-if (typeOf _crate == "ACE_medicalSupplyCrate_advanced") then {
-    _crate setVariable["ace_cargo_size", 3];
-};
 if (typeOf _crate == "Land_EngineCrane_01_F") then {
-    _crate setVariable["ace_cargo_size", 8];
-    _crate setVariable["ace_cargo_canLoad", 1];
-    _crate setVariable["ACE_isRepairFacility", true];
     [_crate, true, [0, 2, 0], 0] call ace_dragging_fnc_setDraggable;
 };
 if (typeOf _crate == "Box_NATO_AmmoVeh_F") then {
-    _crate setVariable["ace_cargo_size", 5];
-    _crate setVariable["ace_cargo_canLoad", 1];
     [_crate, 100000] call ace_rearm_fnc_setSupplyCount;
     [_crate, true, [0, 2, 0], 0] call ace_dragging_fnc_setDraggable;
 };
 if (typeOf _crate == "FlexibleTank_01_forest_F") then {
-    _crate setVariable["ace_cargo_size", 3];
-    _crate setVariable["ace_cargo_canLoad", 1];
     [_crate, 100000] call ace_refuel_fnc_setFuel;
     [_crate, true, [0, 2, 0], 0] call ace_dragging_fnc_setDraggable;
 };
