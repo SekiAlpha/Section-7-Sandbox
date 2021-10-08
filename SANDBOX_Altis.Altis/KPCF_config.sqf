@@ -32,8 +32,9 @@ KPCF_interactRadius = 5;
 // Defines the available crates
 KPCF_crates = [
     "ACE_medicalSupplyCrate_advanced",
-    "Box_NATO_Equip_F",
-    "Box_NATO_Wps_F"
+    "Box_NATO_Ammo_F",
+    "Box_NATO_WpsSpecial_F",
+    "Box_NATO_AmmoOrd_F"
 ];
 
 
