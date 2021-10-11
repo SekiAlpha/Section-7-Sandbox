@@ -34,10 +34,10 @@ requiredAddons[]=
 	"A3_Structures_F_Heli_Ind_Cargo",
 	"ace_medical_treatment",
 	"kat_circulation",
-	"A3_Supplies_F_Exp_Ammoboxes",
 	"A3_Structures_F_Mil_BagFence",
 	"CUP_Misc3_Config",
 	"A3_Structures_F_Heli_Furniture",
 	"acex_sitting",
-	"CUP_Buildings_Config"
+	"CUP_Buildings_Config",
+	"S7_COMPAT"
 };

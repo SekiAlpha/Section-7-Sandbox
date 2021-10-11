@@ -17,5 +17,5 @@ requiredAddons[]=
 	"A3_Structures_F_Heli_Ind_Machines",
 	"ace_medical_treatment",
 	"kat_circulation",
-	"A3_Supplies_F_Exp_Ammoboxes"
+	"S7_COMPAT"
 };
