@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 11.3.2
 - Changed Weapons Crates to Explosive Crates
+- Removed items from Logistics Crates
 
 ## 11.3.1
 - updated compostions to new sandbox
