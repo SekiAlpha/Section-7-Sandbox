@@ -12,6 +12,7 @@ requiredAddons[]=
 	"A3_Structures_F_Mil_Flags",
 	"rhsusf_vehicles",
 	"A3_Structures_F_EPA_Civ_Camping",
+	"ace_dragging",
 	"A3_Ui_F",
 	"A3_Structures_F_Training",
 	"CUP_CAMisc",
@@ -22,7 +23,6 @@ requiredAddons[]=
 	"A3_Structures_F_Heli_Ind_Machines",
 	"A3_Supplies_F_Heli_Fuel",
 	"ace_rearm",
-	"ace_dragging",
 	"A3_Modules_F",
 	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
 	"CUP_Misc_e_Config",
@@ -37,7 +37,8 @@ requiredAddons[]=
 	"A3_Structures_F_Mil_BagFence",
 	"CUP_Misc3_Config",
 	"A3_Structures_F_Heli_Furniture",
-	"acex_sitting",
+	"ace_sitting",
 	"CUP_Buildings_Config",
-	"S7_COMPAT"
+	"S7_COMPAT",
+	"ace_explosives"
 };
