@@ -1,4 +1,4 @@
-﻿Author = "Peterson";
+﻿﻿Author = "Peterson";
 onLoadName = "S7-SANDBOX";
 OnLoadMission = "Lets Kill Shit";
 loadScreen = "photos\s7.paa";
