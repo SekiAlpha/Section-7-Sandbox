@@ -1,7 +1,7 @@
-﻿﻿Author = "Peterson";
-onLoadName = "S7-SANDBOX";
-OnLoadMission = "Lets Kill Shit";
-loadScreen = "photos\s7.paa";
+﻿Author = "SO KillerInThaMist";
+onLoadName = "Close Air Support Training";
+OnLoadMission = "TIS BETTER TO DIE IN TRAINING THAN ON THE BATTLEFIELD!";
+loadScreen = "photos\avation.paa";
 
 Respawn = "base";
 RespawnDelay = 5;
