@@ -40,7 +40,8 @@ KPCF_crates = [
     "Box_NATO_AmmoVeh_F",
     "FlexibleTank_01_forest_F",
     "ACE_Wheel",
-    "ACE_Track"
+    "ACE_Track",
+    "VirtualReammoBox_small_F"
 ];
 
 
