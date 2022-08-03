@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 11.4.0
+- Removed legacy code
+- Added additional crates to KPCratefiller script
+
 ## 11.3.3
 - Replaced Weaons Crate with Explosives Crate
 - Removed Inventory Items from Logistics Crates
