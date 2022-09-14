@@ -1,7 +1,7 @@
 ﻿Author = "Peterson";
 onLoadName = "S7-SANDBOX";
 OnLoadMission = "Lets Kill Shit";
-loadScreen = "photos\s7.paa";
+loadScreen = "photos\S7.paa";
 
 Respawn = "base";
 RespawnDelay = 5;
@@ -32,121 +32,184 @@ class CfgUnitInsignia
 {
 	class spartan6
 	{
-		displayName="Spartan 6";
+		displayName=" Spartan 6";
 		author="Peterson";
 		texture="insignias\spatch6.paa";
 		textureVehicle="";
 	};
 	class spartan7
 	{
-		displayName="Spartan 7";
+		displayName=" Spartan 7";
 		author="Peterson";
 		texture="insignias\spatch7.paa";
 		textureVehicle="";
 	};
 	class spartan5
 	{
-		displayName="Spartan 5";
+		displayName=" Spartan 5";
 		author="Peterson";
 		texture="insignias\spatch5.paa";
 		textureVehicle="";
 	};
 	class spartan16
 	{
-		displayName="Spartan 1-6";
+		displayName=" Spartan 1-6";
 		author="Peterson";
 		texture="insignias\spatch16.paa";
 		textureVehicle="";
 	};
 	class spartan17
 	{
-		displayName="Spartan 1-7";
+		displayName=" Spartan 1-7";
 		author="Peterson";
 		texture="insignias\spatch17.paa";
 		textureVehicle="";
 	};
 	class spartan11
 	{
-		displayName="Spartan 1-1";
+		displayName=" Spartan 1-1";
 		author="Peterson";
 		texture="insignias\spatch11.paa";
 		textureVehicle="";
 	};
 	class spartan12
 	{
-		displayName="Spartan 1-2";
+		displayName=" Spartan 1-2";
 		author="Peterson";
 		texture="insignias\spatch12.paa";
 		textureVehicle="";
 	};
 	class spartan13
 	{
-		displayName="Spartan 1-3";
+		displayName=" Spartan 1-3";
 		author="Peterson";
 		texture="insignias\spatch13.paa";
 		textureVehicle="";
 	};
 	class spartan26
 	{
-		displayName="Spartan 2-6";
+		displayName=" Spartan 2-6";
 		author="Peterson";
 		texture="insignias\spatch26.paa";
 		textureVehicle="";
 	};
 	class spartan27
 	{
-		displayName="Spartan 2-7";
+		displayName=" Spartan 2-7";
 		author="Peterson";
 		texture="insignias\spatch27.paa";
 		textureVehicle="";
 	};
 	class spartan21
 	{
-		displayName="Spartan 2-1";
+		displayName=" Spartan 2-1";
 		author="Peterson";
 		texture="insignias\spatch21.paa";
 		textureVehicle="";
 	};
 	class spartan22
 	{
-		displayName="Spartan 2-2";
+		displayName=" Spartan 2-2";
 		author="Peterson";
 		texture="insignias\spatch22.paa";
 		textureVehicle="";
 	};
 	class spartan23
 	{
-		displayName="Spartan 2-3";
+		displayName=" Spartan 2-3";
 		author="Peterson";
 		texture="insignias\spatch23.paa";
 		textureVehicle="";
 	};
 	class saber
 	{
-		displayName="Saber";
+		displayName=" Saber";
 		author="Peterson";
 		texture="insignias\saber.paa";
 		textureVehicle="";
 	};
+	class dustoff
+	{
+		displayName=" Dustoff";
+		author="KillerInThaMist";
+		texture="insignias\Dustoff.paa";
+		textureVehicle="";
+	};
 	class rogue
 	{
-		displayName="Rogue";
+		displayName=" Rogue";
 		author="Peterson";
 		texture="insignias\rogue.paa";
 		textureVehicle="";
 	};
-	class joker
+	class odin
 	{
-		displayName="Joker";
-		author="Peterson";
-		texture="insignias\joker.paa";
+		displayName=" ODIN";
+		author="KillerInThaMist";
+		texture="insignias\ODIN.paa";
 		textureVehicle="";
 	};
 	class airlead
 	{
-		displayName="AIRLEAD";
+		displayName=" Air Lead";
 		author="Peterson";
 		texture="insignias\airlead.paa";
+		textureVehicle="";
+	};
+	class spartan31
+	{
+		displayName=" Spartan 3-1";
+		author="KillerInThaMist";
+		texture="insignias\spatch31.paa";
+		textureVehicle="";
+	};
+	class spartan32
+	{
+		displayName=" Spartan 3-2";
+		author="KillerInThaMist";
+		texture="insignias\spatch32.paa";
+		textureVehicle="";
+	};
+	class spartan33
+	{
+		displayName=" Spartan 3-3";
+		author="KillerInThaMist";
+		texture="insignias\spatch33.paa";
+		textureVehicle="";
+	};
+	class spartan34
+	{
+		displayName=" Spartan 3-4";
+		author="KillerInThaMist";
+		texture="insignias\spatch34.paa";
+		textureVehicle="";
+	};
+	class spartan36
+	{
+		displayName=" Spartan 3-6";
+		author="KillerInThaMist";
+		texture="insignias\spatch36.paa";
+		textureVehicle="";
+	};
+	class spartan37
+	{
+		displayName=" Spartan 3-7";
+		author="KillerInThaMist";
+		texture="insignias\spatch37.paa";
+		textureVehicle="";
+	};
+	class Medic
+	{
+		displayName=" Medic";
+		author="KillerInThaMist";
+		texture="insignias\medic.paa";
+		textureVehicle="";
+	};
+	class FO
+	{
+		displayName=" FO";
+		author="KillerInThaMist";
+		texture="insignias\fist.paa";
 		textureVehicle="";
 	};
 };
