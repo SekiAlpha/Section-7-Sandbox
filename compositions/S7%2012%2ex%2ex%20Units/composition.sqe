@@ -27558,14 +27558,14 @@ class items
 					};
 					class Attribute1
 					{
-						property="ModuleCurator_F_Forced";
-						expression="_this setVariable ['Forced',_value,true];";
+						property="ModuleCurator_F_Addons";
+						expression="_this setVariable ['Addons',_value,true];";
 						class Value
 						{
 							class data
 							{
 								singleType="SCALAR";
-								value=0;
+								value=3;
 							};
 						};
 					};
@@ -27584,14 +27584,14 @@ class items
 					};
 					class Attribute3
 					{
-						property="ModuleCurator_F_Addons";
-						expression="_this setVariable ['Addons',_value,true];";
+						property="ModuleCurator_F_Forced";
+						expression="_this setVariable ['Forced',_value,true];";
 						class Value
 						{
 							class data
 							{
 								singleType="SCALAR";
-								value=3;
+								value=0;
 							};
 						};
 					};
@@ -27703,14 +27703,14 @@ class items
 					};
 					class Attribute1
 					{
-						property="ModuleCurator_F_Forced";
-						expression="_this setVariable ['Forced',_value,true];";
+						property="ModuleCurator_F_Addons";
+						expression="_this setVariable ['Addons',_value,true];";
 						class Value
 						{
 							class data
 							{
 								singleType="SCALAR";
-								value=0;
+								value=3;
 							};
 						};
 					};
@@ -27729,14 +27729,14 @@ class items
 					};
 					class Attribute3
 					{
-						property="ModuleCurator_F_Addons";
-						expression="_this setVariable ['Addons',_value,true];";
+						property="ModuleCurator_F_Forced";
+						expression="_this setVariable ['Forced',_value,true];";
 						class Value
 						{
 							class data
 							{
 								singleType="SCALAR";
-								value=3;
+								value=0;
 							};
 						};
 					};

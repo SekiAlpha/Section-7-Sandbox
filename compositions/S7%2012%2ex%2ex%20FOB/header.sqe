@@ -1,7 +1,7 @@
 version=54;
 name="S7 12.0.0 FOB";
 author="KillerInThaMist";
-category="EdSubcat_Jbad_Ruins";
+category="EdSubcat_Default";
 requiredAddons[]=
 {
 	"rhsusf_c_m11xx",
@@ -29,5 +29,6 @@ requiredAddons[]=
 	"A3_Structures_F_Heli_Ind_Cargo",
 	"ace_repair",
 	"ace_explosives",
+	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Ui_F"
 };
