@@ -4871,8 +4871,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={23715.172,5.2730074,16337.884};
-								angles[]={0.0026520467,2.5004127,0.0039967569};
+								position[]={23712.15,5.2697086,16334.175};
+								angles[]={0.0013372133,2.5004127,0.0039967569};
 							};
 							side="Empty";
 							flags=4;
@@ -4881,7 +4881,7 @@ class Mission
 							};
 							id=13402;
 							type="ACE_medicalSupplyCrate_advanced";
-							atlOffset=1.9073486e-006;
+							atlOffset=6.1988831e-006;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -4905,8 +4905,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={23714.67,5.2697492,16338.515};
-								angles[]={0.0026520467,2.5004127,0.0026520467};
+								position[]={23711.648,5.2668624,16334.806};
+								angles[]={0.0013372133,2.5004127,0.0039967569};
 							};
 							side="Empty";
 							flags=4;
