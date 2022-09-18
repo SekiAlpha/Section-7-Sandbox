@@ -2,6 +2,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+##12.1.0
+- Fixed fortify tool
+- Added permissions for 3rd platoon
+- Added drivers for 3-6 and 3-7
+- Fixed HC being unplayeable
+- Updated unit and FOB compositions
+- Fixed parches
+- Removed Latent birds
+- Fixed incorrect textures in scripts
+- Fixed bug of loading in as OPFOR instead of BLUEFOR
+- Updated FOB
+- Added rearm box for 3rd plt
+- A few more miscelanious fixes
+
 ## 12.0.0
 - Added Killers new FOB
 - Added fortify modules to the sandbox
