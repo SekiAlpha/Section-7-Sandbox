@@ -1,0 +1,14 @@
+version=54;
+name="S7 12.x.x Company CP";
+author="KillerInThaMist";
+category="EdSubcat_Jbad_Ruins";
+requiredAddons[]=
+{
+	"A3_Modules_F",
+	"A3_Ui_F",
+	"A3_Structures_F_Mil_TentHangar",
+	"A3_Weapons_F_Ammoboxes",
+	"ace_cargo",
+	"A3_Structures_F_Mil_Flags",
+	"A3_Props_F_Orange_Humanitarian_Camps"
+};
