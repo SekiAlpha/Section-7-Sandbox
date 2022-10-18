@@ -41,7 +41,6 @@ KPCF_crates = [
     "ACE_Wheel",
     "ACE_Track",
     "B_CargoNet_01_ammo_F",
-    "B_Quadbike_01_F",
     "VirtualReammoBox_small_F"
 ];
 
