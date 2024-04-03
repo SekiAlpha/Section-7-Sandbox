@@ -8,6 +8,7 @@ RespawnDelay = 5;
 respawnTemplates[] = {"MenuPosition","Tickets"};
 respawnTemplatesVirtual[] = {};
 
+zeusCompositionScriptLevel = 2;
 
 DisabledAI = true;
 enableDebugConsole = 1; // Debug Console
