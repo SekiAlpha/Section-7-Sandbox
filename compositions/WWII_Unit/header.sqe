@@ -1,0 +1,10 @@
+version=54;
+name="WWII_Unit";
+author="S7 Server Team";
+category="FF_us_waffens";
+requiredAddons[]=
+{
+	"WW2_Assets_c_Characters_Americans_c_US_Army",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"WW2_Assets_c_Characters_Americans_c_US_Airforce"
+};
